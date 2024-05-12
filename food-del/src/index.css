@@ -15,12 +15,12 @@ html {
   font-size: 62.5%;
 }
 
-li {
-  font-size: 2rem;
-}
-
 body {
   min-height: 100vh;
+}
+
+li {
+  font-size: 2rem;
 }
 
 a {
@@ -28,7 +28,21 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
 .app {
   width: 80%;
   margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
